@@ -4,7 +4,7 @@ Bem-vindo ao repositório do Projeto-DIO, aqui eu estou fazendo um projeto para 
 
 ### Como Contribuir
 
-Se você deseja contribuir para o desenvolvimento do One Car, ficaremos felizes em receber suas contribuições. Siga estas etapas para começar:
+Se você deseja contribuir para o desenvolvimento do Projeto-DIO, ficaremos felizes em receber suas contribuições. Siga estas etapas para começar:
 
 1. **Fork:** Faça um fork deste repositório.
 
