@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1>CODIGIN JS, VER NO CONSOLE</h1>
+
+
+
+    <script>
+var rodar_codigo;
+
+while (rodar_codigo !== "2") {
+  rodar_codigo = prompt("Digite 1 para verificar herói ou digite 2 para SAIR");
+  
+  if (rodar_codigo === "1") {
+    let nome_heroi = prompt("Digite o nome do seu herói: ");
+    let xp_heroi = prompt("Digite o XP do seu herói: ");
+
+    if (xp_heroi < 1000) {
+      alert(`O herói ${nome_heroi} com ${xp_heroi} de XP está no nível FERRO`);
+    } else if (xp_heroi > 1000 && xp_heroi <= 2000) {
+      alert(`O herói ${nome_heroi} com ${xp_heroi} de XP está no nível BRONZE`);
+    } else if (xp_heroi > 2000 && xp_heroi <= 5000) {
+      alert(`O herói ${nome_heroi} com ${xp_heroi} de XP está no nível PRATA`);
+    } else if (xp_heroi > 6000 && xp_heroi <= 7000) {
+      alert(`O herói ${nome_heroi} com ${xp_heroi} de XP está no nível OURO`);
+    } else if (xp_heroi > 7000 && xp_heroi <= 8000) {
+      alert(`O herói ${nome_heroi} com ${xp_heroi} de XP está no nível PLATINA`);
+    } else if (xp_heroi > 8000 && xp_heroi <= 9000) {
+      alert(`O herói ${nome_heroi} com ${xp_heroi} de XP está no nível ASCENDENTE`);
+    } else if (xp_heroi > 9000 && xp_heroi <= 10000) {
+      alert(`O herói ${nome_heroi} com ${xp_heroi} de XP está no nível IMORTAL`);
+    } else if (xp_heroi >= 10001) {
+      alert(`O herói ${nome_heroi} com ${xp_heroi} de XP está no nível RADIANTE`);
+    }
+  } else if (rodar_codigo !== "2") {
+    alert("Opção inválida. Digite 1 para verificar herói ou 2 para SAIR");
+  }
+}
+
+    </script>
+</body>
+</html>
